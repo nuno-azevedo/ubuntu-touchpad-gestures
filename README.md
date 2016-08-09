@@ -23,7 +23,7 @@ $ rm -rf xserver-xorg-input-synaptics
 ```bash
 $ git clone https://github.com/nuno-azevedo/ubuntu-touchpad-gestures.git
 $ sudo mv ubuntu-touchpad-gestures/touchpad-gestures.py /usr/local/bin/touchpad-gestures
-$ sudo chmod 755 /usr/local/bin/touch-gestures
+$ sudo chmod 755 /usr/local/bin/touchpad-gestures
 $ sudo mkdir -p /etc/X11/xorg.conf.d/
 $ sudo mv ubuntu-touchpad-gestures/50-synaptics.conf /etc/X11/xorg.conf.d/50-synaptics.conf
 $ mv ubuntu-touchpad-gestures/touchpad-gestures.desktop ~/.config/autostart/
