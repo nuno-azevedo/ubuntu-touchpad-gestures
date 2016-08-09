@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=Touchpad Gestures
-Exec=/usr/local/bin/touch-gestures
+Exec=/usr/local/bin/touchpad-gestures
 X-GNOME-Autostart-enabled=true
