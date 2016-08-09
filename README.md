@@ -5,7 +5,7 @@
 $ sudo apt-get -y install --no-install-recommends xdotool
 ```
 
-#### [Only for Ubuntu 14.04 and above] Install older version of Synaptics driver to have access to touchpad event logging
+### [Only for Ubuntu 14.04 and above] Install older version of Synaptics driver to have access to touchpad event logging
 ```bash
 $ sudo apt-get -y install --no-install-recommends autoconf automake build-essential libevdev-dev libmtdev-dev xorg-dev xutils-dev libtool
 $ sudo apt-get -y autoremove --purge xserver-xorg-input-synaptics
@@ -19,7 +19,7 @@ $ cd ..
 $ rm -rf xserver-xorg-input-synaptics
 ```
 
-#### Install
+### Install
 ```bash
 $ git clone https://github.com/nuno-azevedo/ubuntu-touchpad-gestures.git
 $ sudo mv ubuntu-touchpad-gestures/touchpad-gestures.py /usr/local/bin/touchpad-gestures
