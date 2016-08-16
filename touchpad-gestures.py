@@ -20,9 +20,11 @@ try:
     while True:
         events = []
         x, y, n = read_event()
-        while n != 0: events.append(read_event())
+        while n != 0:
+            x, y, n = read_event()
+            events.append((x, y, n))
         if len(events) == 0: continue
-
+        
         f = fingers_count(events)
         dx, dy = events[-1][0] - events[0][0], events[-1][1] - events[0][1]
         if f == 3:
